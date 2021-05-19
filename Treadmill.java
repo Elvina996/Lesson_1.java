@@ -1,13 +1,7 @@
-public class Treadmill implements Barrier {
+public class Treadmill implements Barrier { int length;
 
-    int length;
-
-    public void RunningTrack(int length) {
+    public Treadmill(int length) {
         this.length = length;
-    }
-
-    public Treadmill(int i) {
-
     }
 
     @Override
